@@ -1,0 +1,80 @@
+h1{
+    margin-top: 60px;
+    color: white;
+    text-align: center;
+}
+
+.button{
+    width: 150px;
+    height: 35px;
+    background-color: rgb(173, 4, 21);
+    border-radius: 3px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    color: white;
+    font-size: 16px;
+    margin-left: 25px
+}
+
+.filmes-favoritos li{
+    display: flex;
+    justify-content: space-between;
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 50px;
+    text-decoration: none;
+    list-style: none;
+    padding: 5px;
+}
+
+.button:hover{
+    background-color: rgb(128, 4, 16);
+    transition: all 0.5s;
+}
+
+.titulo{
+    font-weight: bold;
+    font-size: 21px;
+    color: white;
+}
+
+.aviso{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 27px;
+    margin-top: 100px;
+
+}
+
+.verdetalhes{
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+}
+
+@media (max-width: 762px){
+    .filmes-favoritos li{
+        flex-direction: column;
+    }
+
+    .files-favoritos {
+        text-align: center;
+    }
+
+    .titulo{
+        text-align: center;
+        padding: 15px;
+    }
+
+    .button{
+        margin: 15px;
+    }
+
+    .filmes-favoritos li div{
+        text-align: center;
+    }
+
+}
+

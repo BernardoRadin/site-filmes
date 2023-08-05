@@ -1,0 +1,19 @@
+.error{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+
+.code{
+    font-size: 48px;
+}
+
+.link{
+    color: rgb(173, 4, 21);
+}
+
+.link:hover{
+    color: white
+}
